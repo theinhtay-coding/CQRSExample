@@ -1,6 +1,4 @@
-﻿using MediatR;
-
-namespace CQRSExample.Features.Users.Commands
+﻿namespace CQRSExample.Features.Users.Commands
 {
     public class DeleteUserCommand : IRequest<bool>
     {

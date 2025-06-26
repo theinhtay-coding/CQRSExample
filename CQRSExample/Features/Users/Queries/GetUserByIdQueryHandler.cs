@@ -1,8 +1,4 @@
-﻿using CQRSExample.Data;
-using CQRSExample.DTOs;
-using MediatR;
-
-namespace CQRSExample.Features.Users.Queries
+﻿namespace CQRSExample.Features.Users.Queries
 {
     public class GetUserByIdQueryHandler : IRequestHandler<GetUserByIdQuery, UserDto>
     {

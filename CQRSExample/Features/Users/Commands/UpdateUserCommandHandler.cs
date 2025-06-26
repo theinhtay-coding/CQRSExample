@@ -1,8 +1,4 @@
-﻿using CQRSExample.Data;
-using MediatR;
-using System.Threading.Tasks;
-
-namespace CQRSExample.Features.Users.Commands
+﻿namespace CQRSExample.Features.Users.Commands
 {
     public class UpdateUserCommandHandler : IRequestHandler<UpdateUserCommand, bool>
     {
